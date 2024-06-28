@@ -1,3 +1,15 @@
 .container{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .cardsSection{
+        text-align: center;
+        padding: 30px;
+        max-width: 375px;
+
+        @media (width > 600px) {
+            max-width: 1440px;
+        }
+    }
 }
